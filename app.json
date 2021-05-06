@@ -1,0 +1,36 @@
+{
+    "name": "Sample PyTgAuth",
+    "description": "Sample bot for PyTgAuth working example",
+    "logo": "",
+    "keywords": [
+        "Telegram Bot",
+        "J Projects",
+        "PyTgAuth"
+    ],
+    "repository": "https://github.com/jainamoswal/PyTgAuth-example",
+    "website": "https://t.me/j_projects",
+    "success_url": "/",
+    "env": {
+        "API_ID": {
+            "description": "You API ID from my.telegram.org",
+            "value": ""
+        },
+        "APP_HASH": {
+            "description": "You API HASH from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "@BotFather won't refuse for the bot token.",
+            "value": ""
+        },
+        "APP_DOMAIN": {
+            "description": "Your app URL to send user for login.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

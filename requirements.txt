@@ -1,0 +1,4 @@
+telethon
+pytgauth
+gunicorn
+flask
