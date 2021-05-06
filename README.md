@@ -4,6 +4,11 @@
 - [![Support](https://img.shields.io/badge/Telegram-Group-green?style=for-the-badge&logo=telegram)](https://t.me/J_projects_chat)
 
 ---
+
+## Deploy to Heroku 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/jainamoswal/Dogs-Bot)
+
+---
 ## Environment variables :- 
 
 
