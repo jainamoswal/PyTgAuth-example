@@ -3,10 +3,12 @@
 # import modules
 from flask import Flask, redirect, request
 from pytgauth import verify
+from config import var
+
 
 # define app & token
 app = Flask(__name__)
-token = 'xxx' #From @botfather
+token = var.BOT_TOKEN #From @botfather
 
 # define main route.
 @app.route('/')
